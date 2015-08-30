@@ -1,5 +1,4 @@
 <?php global $config; echo $header; ?>
-<?php global $config; echo $header; ?>
   <div class="breadcrumbs">
   <div class="container">
   <div class="row">
@@ -448,13 +447,7 @@
               <li><a href="#reviews_tabs" data-toggle="tab"><?php echo $tab_review; ?></a></li>
               <?php } ?>
 
-              <?php global $config; if ($config->get('magikmicra_product_ct')) { ?>
-              <li><a href="#product_tabs_custom" data-toggle="tab"><?php echo $config->get('magikmicra_product_cttitle'); ?></a></li>
-              <?php }?>
 
-              <?php if ($config->get('magikmicra_product_ct2')) { ?>
-              <li><a href="#product_tabs_custom1" data-toggle="tab"><?php echo $config->get('magikmicra_product_ct2title'); ?></a></li>
-              <?php }?>
               
             </ul>
 
@@ -553,17 +546,7 @@
             </div>
             <?php } ?>
 
-            <?php if ($config->get('magikmicra_product_ct')) { ?>
-            <div class="tab-pane fade" id="product_tabs_custom">
-            <?php echo html_entity_decode($config->get('magikmicra_product_ctcontent'));?>
-            </div>
-            <?php } ?>
 
-            <?php if ($config->get('magikmicra_product_ct2')) { ?>
-            <div class="tab-pane fade" id="product_tabs_custom1">
-            <?php echo html_entity_decode($config->get('magikmicra_product_ct2content'));?>
-            </div>
-            <?php } ?> 
 
           </div><!-- productTabContent -->
 

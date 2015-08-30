@@ -219,7 +219,628 @@ footer .coppyright{color: <?php echo "#".$config->get('magikmicra_powerbycolor')
      
 
       <div class="nav-inner">
+     <?php /**
+      <ul class="hidden-xs" id="nav">
+      <li class="level0 nav-5 level-top"><a class="active level-top" id="tab_home" href="http://test.ba/index.php?route=common/home"><span>Home</span></a></li>
+      <li class="level0 level-top parent">
+          <a class="" href="http://test.ba/index.php?route=product/category&amp;path=20">
+              <span>Women</span>  </a>
+          <div style="left: 0px; display: none;" class="level0-wrapper dropdown-6col">
 
+              <div class="level0-wrapper2">
+
+
+
+                  <div class="nav-block nav-block-center grid12-8 itemgrid itemgrid-4col">
+
+
+                      <ul class="level0">
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=20_26"><span>Stylish Bag</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_26_35"><span>Clutch Handbags</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_26_66"><span>Diaper Bags</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_26_71"><span>Bags</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_26_72"><span>Hobo handbags</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=20_27"><span>Material Bag</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_27_74"><span>Beaded Handbags</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_27_75"><span>Fabric Handbags</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_27_77"><span>Handbags</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_27_79"><span>Leather Handbags</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=20_59"><span>Shoes</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_59_83"><span>Flat Shoes</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_59_87"><span>Flat Sandals</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_59_91"><span>Boots</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_59_95"><span>Heels</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=20_61"><span>Jwellery</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_61_99"><span>Bracelets</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_61_102"><span>Necklaces &amp; Pendent</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_61_63"><span>Pendants</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_61_106"><span>Pins &amp; Brooches</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=20_62"><span>Dresses</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_62_108"><span>Casual Dresses</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_62_110"><span>Evening</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_62_113"><span>Designer</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_62_115"><span>Party</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=20_64"><span>Swimwear</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_64_116"><span>Swimsuits</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_64_117"><span>Beach Clothing</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_64_118"><span>Clothing</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=20_64_119"><span>Bikinis</span></a></li>
+
+
+                              </ul>
+                          </li>
+                      </ul>
+
+
+                  </div>
+                  <div class="nav-block nav-block-right std grid12-4">
+
+                      <div class="cat_pr_info">
+                          <div class="cat_img"><a title="Magento Commerce" href="#"><img alt="product-image" src="http://test.ba/image/cache/catalog/p3-175x175.jpg" width="175"></a></div>
+                          <div class="products-info">
+                              <div class="pr-title"> Vanca Women's Top</div>
+
+                              <div class="price-box">
+                                  <p class="regular-price"><span class="price">100.0000</span></p>
+
+                              </div>
+
+
+
+
+                              <div class="push_text">
+                                  Born to be worn.
+
+                                  Clip on the worlds most wearable music player and take up to 240 songs wit..</div>
+
+                              <div class="cat-bnt">
+                                  <button type="button" title="Add to Cart" class="button btn-cart" onclick="cart.add('34');"><span>BUY IT NOW</span></button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+
+              </div>
+          </div>
+      </li>
+      <li class="level0 level-top parent">
+          <a class="" href="http://test.ba/index.php?route=product/category&amp;path=18">
+              <span>Men</span>  </a>
+          <div style="left: 0px; display: none;" class="level0-wrapper dropdown-6col">
+
+              <div class="level0-wrapper2">
+
+                  <div class="normal-text">
+                      <div class="custom_link">
+                          <div class="grid3"><a href="#">Custom link 1</a></div>
+                          <div class="grid3"><a href="#">Custom link 2</a></div>
+                          <div class="grid3"><a href="#">Custom link 3</a></div>
+                          <div class="grid3"><a href="#">Custom link 4</a></div>
+                      </div>
+                      <div class="grid4 a-right"> <a href="#">Custom right link</a> </div>
+                  </div>
+
+                  <div class="nav-block nav-block-center grid12-8 itemgrid itemgrid-4col">
+
+
+                      <ul class="level0">
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=18_161"><span>qwerty</span></a>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+
+                              <div class="cat-img"><a title="" href="#"><img alt="product-image" src="http://test.ba/image/cache/catalog/shoes-img-160x120.png"></a></div>
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=18_46"><span>Shoes</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_46_70"><span>Sport Shoes</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_46_73"><span>Casual Shoes</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_46_76"><span>Leather Shoes</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_46_78"><span>Canvas Shoes</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+
+                              <div class="cat-img"><a title="" href="#"><img alt="product-image" src="http://test.ba/image/cache/catalog/dress_m-160x120.png"></a></div>
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=18_45"><span>Dresses</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_45_80"><span>Casual Dresse</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_45_81"><span>Evening</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_45_82"><span>Designer</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_45_84"><span>Party</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+
+                              <div class="cat-img"><a title="" href="#"><img alt="product-image" src="http://test.ba/image/cache/catalog/watches-img-160x120.png"></a></div>
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=18_67"><span>Watches</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_67_90"><span>Fasttrack</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_67_92"><span>Casio</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_67_93"><span>Titan</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_67_94"><span>Tommy-Hilfiger</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+
+                              <div class="cat-img"><a title="" href="#"><img alt="product-image" src="http://test.ba/image/cache/catalog/sunglasses-img-160x120.png"></a></div>
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=18_68"><span>Sunglasses</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_68_96"><span>Ray Ban</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_68_97"><span>Fasttrack</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_68_98"><span>Police</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=18_68_100"><span>Oakley</span></a></li>
+
+
+                              </ul>
+                          </li>
+                      </ul>
+
+
+                  </div>
+                  <div class="nav-block nav-block-right std grid12-4">
+
+                      <div class="cat_pr_info">
+                          <div class="cat_img"><a title="Magento Commerce" href="#"><img alt="product-image" src="http://test.ba/image/cache/catalog/p52-175x175.jpg" width="175"></a></div>
+                          <div class="products-info">
+                              <div class="pr-title">Alessia74 Handbag</div>
+
+                              <div class="price-box">
+                                  <p class="regular-price"><span class="price">80.0000</span></p>
+
+                              </div>
+
+
+
+
+                              <div class="push_text">
+
+                                  Engineered with pro-level features and performance, the 12.3-effective-megapixel D300 combine..</div>
+
+                              <div class="cat-bnt">
+                                  <button type="button" title="Add to Cart" class="button btn-cart" onclick="cart.add('31');"><span>BUY IT NOW</span></button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="normal-text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, est aliquet dictum feugiat, diam velit ullamcorper lorem, non condimentum nisi urna sit amet dolor. Integer mollis,
+                      turpis eget blandit porttitor, sapien dolor pretium massa, sed sodales elit dolor eget nulla. Praesent commodo cursus justo, ut tempor ipsum suscipit eget. <a href="#">View all</a></div>
+
+
+              </div>
+          </div>
+      </li>
+      <li class="level0 level-top parent">
+          <a class="" href="http://test.ba/index.php?route=product/category&amp;path=25">
+              <span>Electronics</span>  </a>
+          <div style="left: 0px; display: none;" class="level0-wrapper dropdown-6col">
+
+              <div class="level0-wrapper2">
+
+
+
+                  <div class="nav-block nav-block-center">
+
+
+                      <ul class="level0">
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=25_107"><span>Mobiles</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_107_109"><span>Samsung</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_107_111"><span>Nokia</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_107_112"><span>IPhone</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_107_114"><span>Sony</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=25_29"><span>Accesories</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_29_122"><span>Mobile Memory Cards</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_29_124"><span>Cases &amp; Covers</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_29_126"><span>Mobile Headphones</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_29_128"><span>Bluetooth Headsets</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=25_28"><span>Cameras</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_28_130"><span>Camcorders</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_28_132"><span>Point &amp; Shoot</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_28_133"><span>Digital SLR</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_28_135"><span>Camera Accesories</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=25_30"><span>Audio &amp; Video</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_30_137"><span>MP3 Players</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_30_138"><span>IPods</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_30_140"><span>Speakers</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_30_142"><span>Video Players</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=25_31"><span>Computer</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_31_144"><span>External Hard Disk</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_31_145"><span>Pendrives</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_31_147"><span>Headphones</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=25_31_149"><span>PC Components</span></a></li>
+
+
+                              </ul>
+                          </li>
+                      </ul>
+
+
+                  </div>
+
+
+                  <div class="nav-add"><div class="push_item">
+                          <div class="push_img"><a href="#"> <img alt="phone" src="catalog/view/theme/micra/image/menu_ele_phone.png"> </a></div>
+                          <div class="push_text">Lorem Ipsum is simply dummy text of the printing</div>
+                      </div>
+                      <div class="push_item">
+                          <div class="push_img"><a href="#"> <img alt="camera" src="catalog/view/theme/micra/image/menu_ele_camera.png"> </a></div>
+                          <div class="push_text">Lorem Ipsum is simply dummy text of the printing</div>
+                      </div>
+                      <div class="push_item">
+                          <div class="push_img"><a href="#"> <img alt="ipod" src="catalog/view/theme/micra/image/menu_ele_ipod.png"> </a></div>
+                          <div class="push_text">Lorem Ipsum is simply dummy text of the printing</div>
+                      </div>
+                      <div class="push_item push_item_last">
+                          <div class="push_img"><a href="#"> <img alt="laptop" src="catalog/view/theme/micra/image/menu_ele_laptop.png"> </a></div>
+                          <div class="push_text">Lorem Ipsum is simply dummy text of the printing</div>
+                      </div>
+                  </div>
+
+
+              </div>
+          </div>
+      </li>
+      <li class="level0 level-top parent">
+          <a class="" href="http://test.ba/index.php?route=product/category&amp;path=57">
+              <span>Furniture</span>  </a>
+          <div style="left: 0px; display: none;" class="level0-wrapper dropdown-6col">
+
+              <div class="level0-wrapper2">
+
+
+
+                  <div class="nav-block nav-block-center grid12-8 itemgrid itemgrid-4col">
+
+
+                      <ul class="level0">
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=57_120"><span>Living Room</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_120_121"><span>Racks &amp; Cabinets</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_120_123"><span>Sofas</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_120_125"><span>Chairs</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_120_127"><span>Tables</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=57_129"><span>Dining &amp; Bar</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_129_131"><span>Dining Table Sets</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_129_134"><span>Serving Trolleys</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_129_136"><span>Bar Counters</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_129_139"><span>Dining Cabinets</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=57_141"><span>Bedroom</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_141_143"><span>Beds</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_141_146"><span>Chest of Drawers</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_141_148"><span>Wardrobes &amp; Almirahs</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_141_150"><span>Nightstands</span></a></li>
+
+
+                              </ul>
+                          </li>
+                          <li class="level1 nav-6-1 parent item">
+                              <a href="http://test.ba/index.php?route=product/category&amp;path=57_152"><span>Kitchen</span></a>
+                              <ul class="level1">
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_152_155"><span>Kitchen Racks</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_152_156"><span>Kitchen Fillings</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_152_158"><span>Wall Units</span></a></li>
+
+
+                                  <li class="level2 nav-6-1-1"><a href="http://test.ba/index.php?route=product/category&amp;path=57_152_159"><span>Benches &amp; Stools</span></a></li>
+
+
+                              </ul>
+                          </li>
+                      </ul>
+
+
+                  </div>
+                  <div class="nav-block nav-block-right std grid12-4">
+                      <a href="#/electronics/phone-accessories.html"><img alt="image" src="catalog/view/theme/micra/image/nav-img.jpg" class="fade-on-hover"></a>
+                  </div>
+
+
+                  <div class="normal-text1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, est aliquet dictum feugiat, diam velit ullamcorper lorem, non condimentum nisi urna sit amet dolor. Integer,
+                          turpis eget blandit porttitor, sapien dolor pretium massa, sed sodales elit dolor eget nulla. Praesent commodo cursus justo, ut tempor ipsum suscipit eget.</p></div>
+
+
+              </div>
+          </div>
+      </li>
+      <li class="level0 level-top parent">
+          <a class="" href="http://test.ba/index.php?route=product/category&amp;path=17">
+              <span>Kids</span>  </a>
+      </li>
+      <li class="nav-custom-link level0 level-top parent">
+          <a class="level-top"><span>Custom</span></a>
+          <div class="level0-wrapper custom-menu" style="left: 0px; display: none;">
+              <div class="normal-text">
+                  <div class="custom_link">
+                      <div class="grid3"><a href="#">OUR RECOMMENDATIONS</a></div>
+                  </div>
+                  <div class="grid4 a-right">&nbsp;
+                      <!-- <a href="#electronics.html" style="color: #cd2122; font-style: italic;">SEE MORE</a>  -->
+                  </div>
+              </div>
+              <div class="header-nav-dropdown-wrapper clearer">
+                  <div class="nav-block nav-block-right grid12-5">
+                      <div class="cat_pr_info">
+                          <div class="cat_img"><img alt="product-image" src="http://test.ba/image/cache/catalog/p69-166x200.jpg"></div>
+                          <div class="products-info">
+                              <div class="pr-title">Bata Women's Fashion Sandals</div>
+
+                              <div class="price-box">
+                                  <p class="regular-price"><span class="price">$602.00</span></p>
+
+                              </div>
+
+                              <div class="push_text">
+
+                                  Intel Core 2 Duo processor
+
+                                  Powered by an Intel Core 2 Duo processor at speeds up to 2.1..</div>
+                              <div class="cat-bnt">
+                                  <button type="button" title="Add to Cart" class="button btn-cart" onclick="cart.add('43');"><span>BUY IT NOW</span></button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="header-nav-dropdown-wrapper clearer">
+                  <div class="nav-block nav-block-right grid12-5">
+                      <div class="cat_pr_info">
+                          <div class="cat_img"><img alt="product-image" src="http://test.ba/image/cache/catalog/p50-166x200.jpg"></div>
+                          <div class="products-info">
+                              <div class="pr-title">Butterflies Women's Handbag</div>
+
+                              <div class="price-box">
+                                  <p class="regular-price"><span class="price">$337.99</span></p>
+
+                              </div>
+
+                              <div class="push_text">
+                                  Redefine your workday with the Palm Treo Pro smartphone. Perfectly balanced, you can respond to b..</div>
+                              <div class="cat-bnt">
+                                  <button type="button" title="Add to Cart" class="button btn-cart" onclick="cart.add('29');"><span>BUY IT NOW</span></button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="header-nav-dropdown-wrapper clearer">
+                  <div class="nav-block nav-block-right grid12-5">
+                      <div class="cat_pr_info">
+                          <div class="cat_img"><img alt="product-image" src="http://test.ba/image/cache/catalog/p12-166x200.jpg"></div>
+                          <div class="products-info">
+                              <div class="pr-title">HTC Touch HD</div>
+
+                              <div class="price-box">
+                                  <p class="regular-price"><span class="price">$122.00</span></p>
+
+                              </div>
+
+                              <div class="push_text">
+                                  HTC Touch - in High Definition. Watch music videos and streaming content in awe-inspiring high de..</div>
+                              <div class="cat-bnt">
+                                  <button type="button" title="Add to Cart" class="button btn-cart" onclick="cart.add('28');"><span>BUY IT NOW</span></button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+
+      </li>
+
+    </ul>  */
+     ?>
 <?php 
 if(isset($this->request->get['path'])) {
     $path = $this->request->get['path'];
@@ -247,7 +868,8 @@ function search($array, $key, $value)
 } }
 if($cbim=='' || $cbim==null){$cbim=0;} ?>
 
-<?php 
+<?php
+
 if ($categories) { ?>
     <ul class="hidden-xs" id="nav">
     <?php if($config->get('magikmicra_home_option')==1){ ?>

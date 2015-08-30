@@ -224,6 +224,7 @@ class ControllerProductProduct extends Controller {
 			$this->document->addScript('catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js');
 			$this->document->addStyle('catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css');
 
+
 			$data['heading_title'] = $product_info['name'];
 
 			$data['text_select'] = $this->language->get('text_select');
@@ -294,9 +295,13 @@ class ControllerProductProduct extends Controller {
 			$data['images'] = array();
 
 			$results = $this->model_catalog_product->getProductImages($this->request->get['product_id']);
+          //  var_dump($results);
 
 			foreach ($results as $result) {
-				$data['images'][] = array(
+               // var_dump($this->model_tool_image->resize($result['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height')));
+                    $img =$this->model_tool_image->resize($result['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'));
+              // var_dump($img);
+                $data['images'][] = array(
 					'popup' => $this->model_tool_image->resize($result['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height')),
 					'thumb' => $this->model_tool_image->resize($result['image'], $this->config->get('config_image_additional_width'), $this->config->get('config_image_additional_height'))
 				);
@@ -333,7 +338,7 @@ class ControllerProductProduct extends Controller {
 
 			$data['options'] = array();
                 $option_data = $this->model_catalog_product->getProductOptions($this->request->get['product_id']);
-           // var_dump($option_data);
+
 			foreach ($option_data as $option) {
 				$product_option_value_data = array();
 
@@ -362,7 +367,7 @@ class ControllerProductProduct extends Controller {
 					'option_id'            => $option['option_id'],
 					'name'                 => $option['name'],
 					'type'                 => $option['type'],
-					'value'                => $option['value'],
+					//'value'                => $option['value'],
 					'required'             => $option['required']
 				);
 			}
@@ -391,7 +396,6 @@ class ControllerProductProduct extends Controller {
 			$data['rating'] = (int)$product_info['rating'];
 			$data['description'] = html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8');
 			$data['attribute_groups'] = $this->model_catalog_product->getProductAttributes($this->request->get['product_id']);
-
 			$data['products'] = array();
 
 			$results = $this->model_catalog_product->getProductRelated($this->request->get['product_id']);

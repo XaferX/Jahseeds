@@ -64,16 +64,19 @@ class ControllerModuleCategoryProductSlider extends Controller {
 		//get name of category
 		$this->load->model('catalog/category');
 		$category_result = $this->model_catalog_category->getCategory(intval($setting['category_name']));
-       
-		$data['category_name'] = NULL;
-		$data['category_name'] = $category_result['name'];
-		$data['heading_title'] = $this->language->get('heading_title');
-		$data['button_cart'] = $this->language->get('button_cart');
-		$data['button_wishlist'] = $this->language->get('button_wishlist');
-		$data['button_compare'] = $this->language->get('button_compare');
-		$data['no_product_found'] = $this->language->get('no_product_found');
 
-		$data['module'] = $module++;
+        if(!empty($category_result)){
+            $data['category_name'] = NULL;
+            $data['category_name'] = $category_result['name'];
+            $data['heading_title'] = $this->language->get('heading_title');
+            $data['button_cart'] = $this->language->get('button_cart');
+            $data['button_wishlist'] = $this->language->get('button_wishlist');
+            $data['button_compare'] = $this->language->get('button_compare');
+            $data['no_product_found'] = $this->language->get('no_product_found');
+
+            $data['module'] = $module++;
+
+        }
 
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/module/category_product_slider.tpl')) {
 				return $this->load->view($this->config->get('config_template') . '/template/module/category_product_slider.tpl', $data);

@@ -26,16 +26,16 @@
       <file leaf-file-name="product.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/model/catalog/product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="369" column="52" selection-start="18800" selection-end="18800" vertical-scroll-proportion="-13.128205" vertical-offset="10558" max-vertical-offset="16560">
+            <state line="388" column="18" selection-start="19821" selection-end="19821" vertical-scroll-proportion="-11.589744" vertical-offset="11188" max-vertical-offset="16560">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="order.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/model/checkout/order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="58" selection-start="865" selection-end="865" vertical-scroll-proportion="0.60570073" vertical-offset="0" max-vertical-offset="2280">
+            <state line="49" column="59" selection-start="3352" selection-end="3352" vertical-scroll-proportion="13.025641" vertical-offset="1978" max-vertical-offset="3450">
               <folding>
                 <element signature="n#editOrder#0;n#ModelCheckoutOrder#0;n#!!top" expanded="false" />
                 <element signature="n#deleteOrder#0;n#ModelCheckoutOrder#0;n#!!top" expanded="false" />
@@ -67,13 +67,31 @@
       <file leaf-file-name="product.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/micra/template/product/product.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="0" selection-start="5486" selection-end="5486" vertical-scroll-proportion="-5.246154" vertical-offset="3439" max-vertical-offset="23340">
+            <state line="449" column="0" selection-start="24515" selection-end="24515" vertical-scroll-proportion="-7.415385" vertical-offset="12988" max-vertical-offset="22830">
               <folding>
                 <element signature="n#style#0;n#img#0;n#figure#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <marker date="1440846652246" expanded="false" signature="33087:33101" placeholder="..." />
+                <marker date="1440856403622" expanded="false" signature="32045:32059" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/model/catalog/product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="429" column="0" selection-start="28389" selection-end="28389" vertical-scroll-proportion="-13.128205" vertical-offset="12358" max-vertical-offset="20970">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/model/catalog/category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="266" column="56" selection-start="13766" selection-end="13766" vertical-scroll-proportion="0.7125891" vertical-offset="7380" max-vertical-offset="9900">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,7 +99,7 @@
       <file leaf-file-name="product.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="346" column="0" selection-start="12639" selection-end="12639" vertical-scroll-proportion="-11.589744" vertical-offset="9928" max-vertical-offset="21600">
+            <state line="392" column="126" selection-start="14435" selection-end="14435" vertical-scroll-proportion="-10.184615" vertical-offset="11098" max-vertical-offset="21570">
               <folding />
             </state>
           </provider>
@@ -98,10 +116,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/catalog/controller/module/category_product_slider.php" />
+        <option value="$PROJECT_DIR$/catalog/model/checkout/order.php" />
+        <option value="$PROJECT_DIR$/catalog/model/catalog/product.php" />
         <option value="$PROJECT_DIR$/catalog/controller/product/product.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/micra/template/product/product.tpl" />
-        <option value="$PROJECT_DIR$/catalog/model/catalog/product.php" />
-        <option value="$PROJECT_DIR$/catalog/model/checkout/order.php" />
+        <option value="$PROJECT_DIR$/admin/model/catalog/product.php" />
+        <option value="$PROJECT_DIR$/admin/model/catalog/category.php" />
       </list>
     </option>
   </component>
@@ -189,7 +209,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="1" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -250,32 +270,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/micra/template/product/product.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="0" selection-start="5486" selection-end="5486" vertical-scroll-proportion="-5.246154" vertical-offset="3439" max-vertical-offset="23340">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#figure#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <marker date="1440846652246" expanded="false" signature="33087:33101" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="346" column="0" selection-start="12639" selection-end="12639" vertical-scroll-proportion="-11.589744" vertical-offset="9928" max-vertical-offset="21600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/model/catalog/product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="369" column="52" selection-start="18800" selection-end="18800" vertical-scroll-proportion="-13.128205" vertical-offset="10558" max-vertical-offset="16560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/checkout/confirm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="313" column="84" selection-start="12691" selection-end="12699" vertical-scroll-proportion="-9.282051" vertical-offset="9028" max-vertical-offset="12750">
@@ -285,13 +279,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/model/checkout/order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="58" selection-start="865" selection-end="865" vertical-scroll-proportion="0.60570073" vertical-offset="0" max-vertical-offset="2280">
+        <state line="49" column="59" selection-start="3352" selection-end="3352" vertical-scroll-proportion="13.025641" vertical-offset="1978" max-vertical-offset="3450">
           <folding>
             <element signature="n#editOrder#0;n#ModelCheckoutOrder#0;n#!!top" expanded="false" />
             <element signature="n#deleteOrder#0;n#ModelCheckoutOrder#0;n#!!top" expanded="false" />
             <element signature="n#getOrder#0;n#ModelCheckoutOrder#0;n#!!top" expanded="false" />
             <element signature="n#addOrderHistory#0;n#ModelCheckoutOrder#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/catalog/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="388" column="18" selection-start="19821" selection-end="19821" vertical-scroll-proportion="-11.589744" vertical-offset="11188" max-vertical-offset="16560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="392" column="126" selection-start="14435" selection-end="14435" vertical-scroll-proportion="-10.184615" vertical-offset="11098" max-vertical-offset="21570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/micra/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="449" column="0" selection-start="24515" selection-end="24515" vertical-scroll-proportion="-7.415385" vertical-offset="12988" max-vertical-offset="22830">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#figure#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <marker date="1440856403622" expanded="false" signature="32045:32059" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/model/catalog/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="429" column="0" selection-start="28389" selection-end="28389" vertical-scroll-proportion="-13.128205" vertical-offset="12358" max-vertical-offset="20970">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/model/catalog/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="266" column="56" selection-start="13766" selection-end="13766" vertical-scroll-proportion="0.7125891" vertical-offset="7380" max-vertical-offset="9900">
+          <folding />
         </state>
       </provider>
     </entry>

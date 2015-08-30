@@ -1,6 +1,7 @@
 <?php
 class ModelToolImage extends Model {
 	public function resize($filename, $width, $height) {
+
 		if (!is_file(DIR_IMAGE . $filename)) {
 			return;
 		}
@@ -33,10 +34,13 @@ class ModelToolImage extends Model {
 				copy(DIR_IMAGE . $old_image, DIR_IMAGE . $new_image);
 			}
 		}
-
+        //var_dump($new_image);
+       // var_dump($this->config->get('config_ssl'));
 		if ($this->request->server['HTTPS']) {
+
 			return $this->config->get('config_ssl') . 'image/' . $new_image;
 		} else {
+            //return $new_image;
 			return $this->config->get('config_url') . 'image/' . $new_image;
 		}
 	}

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bbbefff-9ac7-4c77-a5dc-53558ca47a81" name="Default" comment="" />
+    <ignored path="module.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="module" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="checkout.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../view/theme/micra/template/checkout/checkout.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="524" column="7" selection-start="25878" selection-end="25882" vertical-scroll-proportion="-13.307693" vertical-offset="3755" max-vertical-offset="12840">
+              <folding>
+                <element signature="e#5722#6440#0" expanded="false" />
+                <element signature="e#6527#7852#0" expanded="false" />
+                <element signature="e#7923#9125#0" expanded="false" />
+                <element signature="e#9202#16797#0" expanded="false" />
+                <element signature="e#16888#21677#0" expanded="false" />
+                <element signature="e#21770#25871#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shipping_method.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../view/theme/micra/template/checkout/shipping_method.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="6" selection-start="1584" selection-end="1584" vertical-scroll-proportion="-18.461538" vertical-offset="0" max-vertical-offset="1410">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guest.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../view/theme/micra/template/checkout/guest.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="1383" selection-end="1383" vertical-scroll-proportion="-3.7230768" vertical-offset="538" max-vertical-offset="14490">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1441555070633" expanded="false" signature="28179:28193" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../checkout/guest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="159" column="0" selection-start="5925" selection-end="5925" vertical-scroll-proportion="-20.76923" vertical-offset="3420" max-vertical-offset="10260">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shipping_method.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../checkout/shipping_method.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="14" selection-start="3563" selection-end="3563" vertical-scroll-proportion="-47.076923" vertical-offset="90" max-vertical-offset="4290">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="confirm.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../checkout/confirm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="212" column="92" selection-start="8614" selection-end="8617" vertical-scroll-proportion="-30.0" vertical-offset="4410" max-vertical-offset="12420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="success.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../checkout/success.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="77" selection-start="731" selection-end="731" vertical-scroll-proportion="-6.923077" vertical-offset="360" max-vertical-offset="2910">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../admin/controller/sale/order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="858" column="0" selection-start="32144" selection-end="32144" vertical-scroll-proportion="-0.95384616" vertical-offset="13558" max-vertical-offset="53940">
+              <folding>
+                <element signature="n#add#0;n#ControllerSaleOrder#0;n#!!top" expanded="false" />
+                <element signature="n#edit#0;n#ControllerSaleOrder#0;n#!!top" expanded="false" />
+                <element signature="n#getList#0;n#ControllerSaleOrder#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../admin/model/sale/order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="279" column="46" selection-start="11273" selection-end="11273" vertical-scroll-proportion="-5.5692306" vertical-offset="8008" max-vertical-offset="13440">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../model/checkout/order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="282" column="90" selection-start="18964" selection-end="18964" vertical-scroll-proportion="0.33333334" vertical-offset="8188" max-vertical-offset="27660">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../view/theme/micra/template/module/category.tpl" />
+        <option value="$PROJECT_DIR$/category.php" />
+        <option value="$PROJECT_DIR$/../../view/theme/micra/template/product/category.tpl" />
+        <option value="$PROJECT_DIR$/../../view/theme/micra/template/module/bestseller.tpl" />
+        <option value="$PROJECT_DIR$/../../view/theme/micra/template/module/featured.tpl" />
+        <option value="$PROJECT_DIR$/../../view/theme/micra/template/module/latest.tpl" />
+        <option value="$PROJECT_DIR$/../../view/theme/micra/template/module/category_product_slider.tpl" />
+        <option value="$PROJECT_DIR$/../checkout/checkout.php" />
+        <option value="$PROJECT_DIR$/../checkout/guest_shipping.php" />
+        <option value="$PROJECT_DIR$/../checkout/shipping_address.php" />
+        <option value="$PROJECT_DIR$/../../view/theme/micra/template/checkout/shipping_address.tpl" />
+        <option value="$PROJECT_DIR$/../../view/theme/micra/template/checkout/guest.tpl" />
+        <option value="$PROJECT_DIR$/../checkout/guest.php" />
+        <option value="$PROJECT_DIR$/../checkout/confirm.php" />
+        <option value="$PROJECT_DIR$/../checkout/success.php" />
+        <option value="$PROJECT_DIR$/../../../admin/model/sale/order.php" />
+        <option value="$PROJECT_DIR$/../../../admin/controller/sale/order.php" />
+        <option value="$PROJECT_DIR$/../../model/checkout/order.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bbbefff-9ac7-4c77-a5dc-53558ca47a81" name="Default" comment="" />
+      <created>1441552286732</created>
+      <updated>1441552286732</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/category06.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="131" selection-end="195" vertical-scroll-proportion="-3.8461537" vertical-offset="0" max-vertical-offset="2250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="-5.5384617" vertical-offset="0" max-vertical-offset="2370">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../view/theme/micra/template/module/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="62" selection-start="96" selection-end="96" vertical-scroll-proportion="-0.7692308" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../view/theme/micra/template/product/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="30" selection-start="5238" selection-end="5238" vertical-scroll-proportion="-6.953846" vertical-offset="3868" max-vertical-offset="9510">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#a#0;n#div#0;n#div#0;n#div#0;n#li#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../view/theme/micra/template/module/bestseller.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="22" selection-start="1075" selection-end="1117" vertical-scroll-proportion="-9.282051" vertical-offset="238" max-vertical-offset="3060">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../view/theme/micra/template/module/featured.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="21" selection-start="1335" selection-end="1335" vertical-scroll-proportion="-15.384615" vertical-offset="0" max-vertical-offset="2850">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../view/theme/micra/template/module/latest.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="22" selection-start="1410" selection-end="1410" vertical-scroll-proportion="-10.769231" vertical-offset="270" max-vertical-offset="2970">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../view/theme/micra/template/module/category_product_slider.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="22" selection-start="1500" selection-end="1500" vertical-scroll-proportion="-18.461538" vertical-offset="0" max-vertical-offset="3150">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../checkout/checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="9" selection-start="362" selection-end="362" vertical-scroll-proportion="27.692308" vertical-offset="1260" max-vertical-offset="4530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../checkout/guest_shipping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="7" selection-end="10" vertical-scroll-proportion="-0.46153846" vertical-offset="0" max-vertical-offset="6420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../checkout/shipping_address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="7" selection-end="10" vertical-scroll-proportion="-0.46153846" vertical-offset="0" max-vertical-offset="6180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../view/theme/micra/template/checkout/shipping_address.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1729" selection-end="1729" vertical-scroll-proportion="-3.7230768" vertical-offset="718" max-vertical-offset="10020">
+          <folding>
+            <marker date="1441555009033" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../view/theme/micra/template/checkout/guest.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="1383" selection-end="1383" vertical-scroll-proportion="-3.7230768" vertical-offset="538" max-vertical-offset="14490">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1441555070633" expanded="false" signature="28179:28193" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../checkout/guest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="0" selection-start="5925" selection-end="5925" vertical-scroll-proportion="-20.76923" vertical-offset="3420" max-vertical-offset="10260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../view/theme/micra/template/checkout/checkout.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="524" column="7" selection-start="25878" selection-end="25882" vertical-scroll-proportion="-13.307693" vertical-offset="3755" max-vertical-offset="12840">
+          <folding>
+            <element signature="e#5722#6440#0" expanded="false" />
+            <element signature="e#6527#7852#0" expanded="false" />
+            <element signature="e#7923#9125#0" expanded="false" />
+            <element signature="e#9202#16797#0" expanded="false" />
+            <element signature="e#16888#21677#0" expanded="false" />
+            <element signature="e#21770#25871#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../view/theme/micra/template/checkout/shipping_method.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="6" selection-start="1584" selection-end="1584" vertical-scroll-proportion="-18.461538" vertical-offset="0" max-vertical-offset="1410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../checkout/shipping_method.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="14" selection-start="3563" selection-end="3563" vertical-scroll-proportion="-47.076923" vertical-offset="90" max-vertical-offset="4290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../checkout/confirm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="212" column="92" selection-start="8614" selection-end="8617" vertical-scroll-proportion="-30.0" vertical-offset="4410" max-vertical-offset="12420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../checkout/success.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="77" selection-start="731" selection-end="731" vertical-scroll-proportion="-6.923077" vertical-offset="360" max-vertical-offset="2910">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../admin/controller/sale/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="858" column="0" selection-start="32144" selection-end="32144" vertical-scroll-proportion="-0.95384616" vertical-offset="13558" max-vertical-offset="53940">
+          <folding>
+            <element signature="n#add#0;n#ControllerSaleOrder#0;n#!!top" expanded="false" />
+            <element signature="n#edit#0;n#ControllerSaleOrder#0;n#!!top" expanded="false" />
+            <element signature="n#getList#0;n#ControllerSaleOrder#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../admin/model/sale/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="279" column="46" selection-start="11273" selection-end="11273" vertical-scroll-proportion="-5.5692306" vertical-offset="8008" max-vertical-offset="13440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../model/checkout/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="90" selection-start="18964" selection-end="18964" vertical-scroll-proportion="0.33333334" vertical-offset="8188" max-vertical-offset="27660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

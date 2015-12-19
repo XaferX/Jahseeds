@@ -1,6 +1,6 @@
 <?php
 
-echo 'hello';
+echo 'hello dima';
 
 ?>
 
@@ -8,4 +8,11 @@ echo 'hello';
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-</html
+
+<body>
+<h1>Title</h1>
+</body>
+
+
+
+</html>

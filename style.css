@@ -3,3 +3,13 @@
 	text-align: center;
 	color: green;
 }
+
+.went {
+	color: black;
+	text-indent: inherit;
+}
+
+
+.post_data {
+	display: none;
+}

@@ -6,5 +6,5 @@
 .left_block {
 	display: block;
 	position: absolute;
-	
+	text-decoration: blink;
 }

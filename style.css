@@ -13,3 +13,8 @@
 .post_data {
 	display: none;
 }
+
+.right_banner {
+	float: right;
+	position: fixed;
+}
